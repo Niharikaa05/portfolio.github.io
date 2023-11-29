@@ -1,0 +1,313 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #24252A;
+}
+li,a,button{
+    font-family:"Montserrat",sans-serif;
+    font-weight:"500";
+    font-size: 16px;
+    color: #ecece1;
+    text-decoration:none;
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:28px 3%;
+    align-items: center;
+}
+.logo{
+    width:50px;
+    height:50px;
+    padding: 1px;
+    margin: 0%;
+    cursor:pointer;
+    
+}
+.navbar_links{
+    list-style:none;
+}
+.navbar_links li{
+    display:inline-block;
+    padding:0px 20px;
+}
+.navbar_links li a{
+    transition:all 0.3s ease 0s;
+}
+.navbar_links li a:hover{
+    transition:all 0.3s ease 0s;
+    /* color: rgb(14, 124, 130); */
+    /* color:rgb(17, 191, 235); */
+    color:rgb(59,174,209);
+}
+
+.cta button{
+    padding:9px 25px;
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor:alias;
+    transition:all 0.3s ease 0s;
+    
+}
+.cta button:hover{
+    background-color:rgba(0, 136,169,0.8); 
+    color:aqua;
+}
+.info{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:#ecece1;
+    padding:2px;
+    margin:15px;
+    padding-top:5px;
+}
+#first_para{
+    padding-left:5px;
+    font-family:"Montserrat",sans-serif;
+    font-size:20px;
+}
+.info span{
+background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 30px;
+    cursor:pointer;
+    opacity:75%;
+    font-size:31px;   
+}
+.image{
+    width:30%;
+    height:60%;
+    position:absolute;
+    right:100px;
+    bottom:0;
+    justify-content: flex-end;
+}
+/* .info image{
+    position:absolute;
+    top:99px;
+    height:140%;
+    left:40%;
+    transform:translate(-55%);
+    bottom:0;
+    
+} */
+.girl_photo{
+    height:260px;
+    width:260px;
+    border-radius:50%;
+    padding-top:0px;
+    /* position:absolute;
+    margin-top: -24%; */
+    display:block;
+    margin-left: auto;
+    margin-right:auto ;
+    border-radius: 50%;
+    margin-inline-end: 2px;
+   
+}
+ .girl_photo:hover{
+    cursor:default;
+    transition:.2s,ease-in;
+}
+.icons a {
+    text-decoration: none;
+    color:#fbf7f7;
+}
+.icons ion-icon{
+    margin-left:7%;
+    color:#fbf7f7;
+    margin-left:25px;
+    font-size:25px;
+}
+.icons ion-icon:hover{
+    color:rgb(59,174,209);
+}
+.girl_photo2{
+    height:270px;
+    width:290px;
+    border-radius:53%;
+    padding-top:0px;
+    position:absolute;
+    margin-top:19%;
+    margin-left: 12px;
+    margin-inline-start: 46px;
+   
+}
+ .girl_photo2:hover{
+    cursor:default;
+    transition:.2s,ease-in;
+ }
+
+ .about{
+    margin-right: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:#ecece1;
+    padding:2px;
+    margin:15px;
+    padding-top:5px;
+    margin-top: 60px;
+
+
+ }
+ .abt{
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 30px;
+    cursor:pointer;
+    opacity:75%;
+    font-size:31px;   
+
+ }
+ .degree{
+    color:#ecece1;
+    font-size: 22px;
+
+ }
+ .education{
+ margin-left: 36%;
+ margin-top: 9%;
+ }
+ .edu{
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 30px;
+    cursor:pointer;
+    opacity:75%;
+    font-size:31px; 
+    color:#ecece1;  
+
+ }
+ .college{
+    color:#ecece1;
+    font-size: 22px;
+
+ }
+ .school{
+    color:#ecece1;
+    font-size: 22px;
+ }
+ .Skills{
+    margin-left: 5%;
+    margin-top: 12%;
+
+    }
+ .sk{
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 30px;
+    cursor:pointer;
+    opacity:75%;
+    font-size:33px; 
+    color:#ecece1;
+ }
+.project{
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 30px;
+    cursor:pointer;
+    opacity:75%;
+    font-size:31px; 
+    color:#ecece1;  
+}
+.projects{
+    margin-left: 68%;
+    margin-top: -15%;
+
+}
+.resume{
+margin-left: 69%;
+ margin-top: 21%;
+}
+
+#r{
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    opacity:75%;
+    font-size:31px; 
+    color:#ecece1;  
+}  
+.re button{
+    padding:9px 20px;
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor:alias;
+    transition:all 0.3s ease 0s;
+    margin-left: -3%;
+    
+}
+.re button:hover{
+    background-color:rgba(0, 136,169,0.8); 
+    color:aqua;
+}
+.cont{
+   
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 30px;
+    cursor:pointer;
+    opacity:75%;
+    font-size:31px; 
+    color:#ecece1;
+}
+.Contact{
+    margin-left:5%;
+    margin-top: -13%;
+}
+.gmail button{
+    padding:9px 20px;
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor:alias;
+    transition:all 0.3s ease 0s;
+    margin-left: -1%;
+    
+}
+.phn button{
+    padding:9px 16px;
+    background-color:rgba(0, 136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor:alias;
+    transition:all 0.3s ease 0s;
+    margin-top:1%;
+    margin-left:-1%;
+    
+}
+.phn button:hover{
+    background-color:rgba(0, 136,169,0.8); 
+    color:aqua;
+}
+.gmail button:hover{
+    background-color:rgba(0, 136,169,0.8); 
+    color:aqua;
+}
+
+.icon a {
+    text-decoration: none;
+    color:#fbf7f7;
+}
+.icon ion-icon{
+    color:#fbf7f7;
+    margin-left:4%;
+    font-size:25px;
+    margin-top: 1.5%;
+}
+.icon ion-icon:hover{
+    color:rgb(231, 246, 27);
+}
+.vl{
+    border-left: 3.5px solid white;
+    height:345px;
+    margin-left: 49%;
+    margin-top:-33%;
+}
